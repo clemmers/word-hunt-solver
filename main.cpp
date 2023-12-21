@@ -131,7 +131,7 @@ int main() {
 
     std::cout << final_words << std::endl;
 
-    std::ofstream stuff("test.txt");
+    std::ofstream stuff("output.txt");
     stuff << final_words;
 
     return 0;
